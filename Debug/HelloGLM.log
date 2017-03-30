@@ -1,0 +1,59 @@
+﻿Build started 3/30/2017 1:00:28 PM.
+     1>Project "C:\Users\CADAL\documents\visual studio 2013\Projects\Graficas\HelloGLM\HelloGLM.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt mainK.cpp
+         mainK.cpp
+     1>c:\users\cadal\documents\visual studio 2013\projects\graficas\helloglm\maink.cpp(87): warning C4244: 'initializing' : conversion from 'double' to 'GLint', possible loss of data
+     1>c:\users\cadal\documents\visual studio 2013\projects\graficas\helloglm\maink.cpp(88): warning C4244: 'initializing' : conversion from 'double' to 'GLint', possible loss of data
+     1>c:\users\cadal\documents\visual studio 2013\projects\graficas\helloglm\maink.cpp(94): warning C4244: 'initializing' : conversion from 'double' to 'GLint', possible loss of data
+     1>c:\users\cadal\documents\visual studio 2013\projects\graficas\helloglm\maink.cpp(95): warning C4244: 'initializing' : conversion from 'double' to 'GLint', possible loss of data
+     1>c:\users\cadal\documents\visual studio 2013\projects\graficas\helloglm\maink.cpp(100): warning C4244: 'initializing' : conversion from 'double' to 'GLint', possible loss of data
+     1>c:\users\cadal\documents\visual studio 2013\projects\graficas\helloglm\maink.cpp(101): warning C4244: 'initializing' : conversion from 'double' to 'GLint', possible loss of data
+     1>c:\users\cadal\documents\visual studio 2013\projects\graficas\helloglm\maink.cpp(107): warning C4244: 'initializing' : conversion from 'double' to 'GLint', possible loss of data
+     1>c:\users\cadal\documents\visual studio 2013\projects\graficas\helloglm\maink.cpp(108): warning C4244: 'initializing' : conversion from 'double' to 'GLint', possible loss of data
+     1>c:\users\cadal\documents\visual studio 2013\projects\graficas\helloglm\maink.cpp(113): warning C4244: 'initializing' : conversion from 'double' to 'GLint', possible loss of data
+     1>c:\users\cadal\documents\visual studio 2013\projects\graficas\helloglm\maink.cpp(114): warning C4244: 'initializing' : conversion from 'double' to 'GLint', possible loss of data
+     1>c:\users\cadal\documents\visual studio 2013\projects\graficas\helloglm\maink.cpp(119): warning C4244: 'initializing' : conversion from 'double' to 'GLint', possible loss of data
+     1>c:\users\cadal\documents\visual studio 2013\projects\graficas\helloglm\maink.cpp(120): warning C4244: 'initializing' : conversion from 'double' to 'GLint', possible loss of data
+     1>c:\users\cadal\documents\visual studio 2013\projects\graficas\helloglm\maink.cpp(288): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\cadal\documents\visual studio 2013\projects\graficas\helloglm\maink.cpp(290): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\cadal\documents\visual studio 2013\projects\graficas\helloglm\maink.cpp(293): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\cadal\documents\visual studio 2013\projects\graficas\helloglm\maink.cpp(309): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\cadal\documents\visual studio 2013\projects\graficas\helloglm\maink.cpp(310): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\cadal\documents\visual studio 2013\projects\graficas\helloglm\maink.cpp(313): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\cadal\documents\visual studio 2013\projects\graficas\helloglm\maink.cpp(332): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\cadal\documents\visual studio 2013\projects\graficas\helloglm\maink.cpp(336): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\cadal\documents\visual studio 2013\projects\graficas\helloglm\maink.cpp(355): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\cadal\documents\visual studio 2013\projects\graficas\helloglm\maink.cpp(359): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\cadal\documents\visual studio 2013\projects\graficas\helloglm\maink.cpp(377): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\cadal\documents\visual studio 2013\projects\graficas\helloglm\maink.cpp(384): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\cadal\documents\visual studio 2013\projects\graficas\helloglm\maink.cpp(620): warning C4805: '==' : unsafe mix of type 'BOOLEAN' and type 'bool' in operation
+     1>c:\users\cadal\documents\visual studio 2013\projects\graficas\helloglm\maink.cpp(650): warning C4805: '==' : unsafe mix of type 'BOOLEAN' and type 'bool' in operation
+     1>c:\users\cadal\documents\visual studio 2013\projects\graficas\helloglm\maink.cpp(680): warning C4805: '==' : unsafe mix of type 'BOOLEAN' and type 'bool' in operation
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\CADAL\documents\visual studio 2013\Projects\Graficas\Debug\HelloGLM.exe" /INCREMENTAL /NOLOGO freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\CADAL\documents\visual studio 2013\Projects\Graficas\Debug\HelloGLM.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\CADAL\documents\visual studio 2013\Projects\Graficas\Debug\HelloGLM.lib" /MACHINE:X86 Debug\box_gl.obj
+         Debug\cone_gl.obj
+         Debug\cube_gl.obj
+         Debug\cylinder_gl.obj
+         Debug\disk_gl.obj
+         Debug\dodeca_gl.obj
+         Debug\icosa_gl.obj
+         Debug\line_gl.obj
+         Debug\mainK.obj
+         Debug\object_gl.obj
+         Debug\octa_gl.obj
+         Debug\point_gl.obj
+         Debug\polygon_gl.obj
+         Debug\pyramid_gl.obj
+         Debug\quad_gl.obj
+         Debug\sphere_gl.obj
+         Debug\teapot_gl.obj
+         Debug\tetra_gl.obj
+         Debug\torus_gl.obj
+         Debug\triangle_gl.obj
+         HelloGLM.vcxproj -> C:\Users\CADAL\documents\visual studio 2013\Projects\Graficas\Debug\HelloGLM.exe
+     1>Done Building Project "C:\Users\CADAL\documents\visual studio 2013\Projects\Graficas\HelloGLM\HelloGLM.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.57
